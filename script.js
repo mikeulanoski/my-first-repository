@@ -73,6 +73,7 @@ var txt4 = document.getElementById ("freelancetext4")
                 txt4.textContent = '';}
             }
 
+
 var btn5 = document.getElementById ('submit5')
 var txt5 = document.getElementById ("freelancetext5")
     btn5.addEventListener('click', updateBtn5);
@@ -144,4 +145,23 @@ var txt7 = document.getElementById ("freelancetext7")
             else 
                 {btn7.value = 'Click to view Senior Chassis Design Engineer job description';
                 txt7.textContent = " ";}
+            }
+
+var btn8 = document.getElementById ('submit8')
+var txt8 = document.getElementById ("freelancetext8")
+    btn8.addEventListener('click', updateBtn8);
+        function updateBtn8() 
+            {if (btn8.value === 'Click to view Project Manager job description') 
+                {btn8.value = 'Click to close Project Manager job description';
+                txt8.textContent = 'Click to close Project Manager  job description';
+                txt8.textContent = 'Lead teams of engineers, buyers, sales people, fabricators and'+
+                'QC on the execution of multiple gas turbine inlet system construction projects for '+
+                'offshore oil platforms. Responsible for project planning (schedules, scope, scope '+
+                'changes), budget (EACs, man-hour requirements/changes in Oracle), execution (including '+
+                'change orders), and closing (revenue recognition) of multiple individual fabrication '+
+                'projects (Note: All assigned projects were delivered on time per the customer’s requirements '+
+                'while maintaining forecast profit margins).';}
+            else 
+                {btn8.value = 'Click to view Project Manager job description';
+                txt8.textContent = '';}
             }

@@ -27,7 +27,7 @@ body {
 	flex-basis: 200px;
 }
 
-		#submit1 {
+	#submit1 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -35,15 +35,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit1:hover {
+	#submit1:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit2 {
+	#submit2 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -51,15 +53,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit2:hover {
+	#submit2:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit3 {
+	#submit3 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -67,15 +71,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit3:hover {
+	#submit3:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit4 {
+	#submit4 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -83,15 +89,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit4:hover {
+	#submit4:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit5 {
+	#submit5 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -99,15 +107,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit5:hover {
+	#submit5:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit6 {
+	#submit6 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -115,15 +125,17 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit6:hover {
+	#submit6:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		#submit7 {
+	#submit7 {
 			background-color: #ccc;
 			border-radius:10px;
 			color: black;
@@ -131,24 +143,46 @@ body {
 			font-size: large;
 			cursor: pointer;
 			border:none;
+			white-space: normal;
+			word-wrap: break-word;
 		}
 
-		#submit7:hover {
+	#submit7:hover {
 			button: none;
 			background:gray;
 			box-shadow: 0px 0px 1px #777;
 		}
 
-		.scroller {
-			height:400px; 
-		   overflow:scroll;    
+	#submit8 {
+			background-color: #ccc;
+			border-radius:10px;
+			color: black;
+			font-family: 'Verdana';
+			font-size: large;
+			cursor: pointer;
+			border:none;
+			white-space: normal;
+			word-wrap: break-word;
+		}
+
+	#submit8:hover {
+			button: none;
+			background:gray;
+			box-shadow: 0px 0px 1px #777;
+		}
+
+	.scroller {
+			height:500px; 
+			overflow-x: hidden;
+			overflow-y: scroll;    
 		   }
 
 		   
-		   h1
-		   {
-			   border-bottom:1px solid #CCC;
-			   padding-bottom:3px;
+	h1{
+			border-bottom:3px solid rgb(204, 204, 204);
+			padding-bottom:5px;
 		   }  
 
-
+	p.description {
+			font-style: italic; display:inline;
+		}
