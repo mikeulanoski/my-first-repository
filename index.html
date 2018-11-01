@@ -3,33 +3,41 @@
         <link rel="stylesheet" href="styles.css">    
 
         <head>
-
+<!-- install CSS-->
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
                 <meta charset="utf-8"> 
-
+<!-- install jquery & Javascript-->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
                 <script src="jquery-3.3.1.min.js"> </script>
 
         <style>
-                p.ex1 {margin-left: 0%;}
+ /* Set the left margin of the address, etc. */
+                p.ex1 {
+                        margin-left: 0%;
+                        }
         </style>
 
         </head>
 
         <body>
 
+<!-- Set up the container the resume will be in. -->
+
         <div class="container">
 
-        <h1 class="font-weight-bold" class="page-header">
+<!-- Set the font-weignt and make it the page header-->
+
+        <h1 
+        class="font-weight-bold" class="page-header"> <!-- info for title -->
         MICHAEL ULANOSKI
         </h1>
 
-        <h5 class="font-weight-normal">
+        <h5 class="font-weight-normal"> <!--font info for address info-->
           
-                <p class="ex1">
+                <p class="ex1"> <!-- install left margin -->
                   
                         Louisville, Kentucky<br>
                         U.S. phone 502-254-3451<br>
@@ -39,7 +47,11 @@
                 </p>
         </h5>
 
-        <div class="scroller">
+<!-- Installing a scroller for the rest of the page. -->
+
+        <div 
+        class="scroller"
+        >
 
         <h4>    
                 <u>COMPETENCIES:</u>
@@ -62,10 +74,19 @@
         <h4>
                 <U>SKILLS:</U>
         </h4>
-        <p>    
-                <div class="container"> 
-                        <div class="row">
-                                <div class="col-md-6">
+        <p>  
+
+<!-- Installing a flex container for two unordered lists. Want the lists to be side by side.-->  
+
+                <div 
+                class="container"
+                > 
+                        <div
+                        class="row"
+                        >
+                                <div
+                                class="col-md-6"
+                                >
                                         <ul>
                                                 <div><li>FMEA (Failure Mode and Effects Analysis)</li></div>
                                                 <div><li>DVP&R (Design Verification, Plan and Report)</li></div>
@@ -75,7 +96,9 @@
                                         </ul>
                                 </div>
 
-                                <div class="col-md-6">
+                                <div 
+                                class="col-md-6"
+                                >
                                         <ul>
                                                 <div><li>8D Problem Solving</li></div>
                                                 <div><li>FTA (Fault Tree Analysis)</li></div>
@@ -92,86 +115,135 @@
         </h4>
         <p>
                 <br>
+<!--------------------------------------------------------------------------------------------------------------------------------> 
                 <u>FREELANCE ENGINEER</u> &emsp; &emsp; 2012 - 2014, 2015 - Present <br> 
-               
+
+<!-- Installing the button that hides/shows the job description-->
+
                 <input type="button" value="Click to view Freelance Engineer description." id="submit1" onclick="myFunction1()">
                 <p id="freelancetext1">
                 </p>
                 <br>
-                      
+<!-------------------------------------------------------------------------------------------------------------------------------->                     
                 <u>RANDSTAD ENGINEERING</u> assigned to Cummins &emsp; Position located in Columbus, Indiana	
                 &emsp; &emsp; 2014 - 2015<br>
                 Title: Engineer IV<br>
+
+<!-- Installing mini-pics to accentuate the job description.-->
+
                 <img src="qst30-tier2-construction.png" width="100" height="100" alt="30L Cummins Engine"> 
-                <p class="description">30L Cummins Engine</p> <br><br>
+                <span class="description">30L Cummins Engine</span> <br><br>
+                
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Engineer IV job description" id="submit2" onclick="myFunction2()">
                 <p id="freelancetext2">
                 </p>
                 <br>
 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
 
                 <u>AEROTEK assigned to Ford</u> &emsp; Position located in Louisville, 
                 Kentucky &emsp;	&emsp; 2012<br>
                 Title: Quality Process Improvement Engineer<br>
+
+<!-- Installing mini-pics to accentuate the job description.-->
+
                 <img src="2014-Ford-Escape-Titanium-4wd-Front.jpg" width="150" height="100" alt="Ford Escape"> 
-                <p class="description">Ford Escape</p> <br><br>
+                <span class="description">Ford Escape</span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Quality Process Improvement Engineer job description" id="submit3" onclick="myFunction3()">
                 <p id="freelancetext3">
                 </p>
                 <br>
 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
+
                 <u>LHP assigned to Cummins</u> &emsp; Position located in Columbus, 
                 Indiana &emsp; &emsp;2011 - 2012<br>
                 Title: Service Engineer<br>
+
+<!-- Installing mini-pics to accentuate the job description.-->
+
                 <img src="qsk50-tier-4-final-mining.png" width="100" height="100" alt="50L Cummins Engine">
-                <p class="description">50L Cummins Engine</p> <br><br>
+                <span class="description">50L Cummins Engine</span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Service Engineer job description" id="submit4" onclick="myFunction4()">
                 <p id="freelancetext4">
                 </p>
                 <br>
                 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
+
                 <u>ADECCO assigned to GE Power – formerly GE Energy</u> &emsp; Position located in Louisville, 
                 Kentucky &emsp; &emsp;2008 - 2009<br>
                 Title: Project Manager<br>
+
+<!-- Installing mini-pics to accentuate the job description.-->
+
                 <img src="filter_house_-1030x688.jpg" width="150" height="100" alt="Turbine filter house">
-                <p class="description">Turbine Inlet Filter House </p> <br><br>
+                <span class="description">Turbine Inlet Filter House </span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Project Manager job description" id="submit8" onclick="myFunction8()">
                 <p id="freelancetext8">
                 </p>
                 <br>
 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
+
                 <u>CDI assigned to Cummins</u> &emsp; Position located in Seymour, 
                 Indiana &emsp; &emsp; 2007 - 2008 <br>
                 Title: Project Engineer<br>
+
+<!-- Installing mini-pics to accentuate the job description.-->
+
                 <img src="qsk19-emissions-certified-mining.png" width="100" height="100" alt="19L Cummins Engine">
-                <p class="description">19L Cummins Engine</p> <br><br>
+                <span class="description">19L Cummins Engine</span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Project Engineer job description" id="submit5" onclick="myFunction5()">
                 <p id="freelancetext5">
                 </p>
                 <br>
 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
+
                 <u>BARTECH assigned to Indiana University Cyclotron Facility (This facility no longer 
                 exsists)</u> &emsp; Position located in Bloomington, Indiana &emsp; &emsp;
                 2006 - 2007<br>
                 Title: Engineer<br>
+
+<!-- Installing mini-pics to accentuate the job description.--> 
+
                 <img src="cyclotrontop final.jpg" width="100" height="100" alt="Indiana University Cyclotron">
-                <p class="description">Cyclotron</p> <br><br>
+                <span class="description">Cyclotron</span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Engineer job description" id="submit6" onclick="myFunction6()"/>
                 <p id="freelancetext6">
                 </p>
                 <br>
 
+<!--------------------------------------------------------------------------------------------------------------------------------> 
+
                 <u>FORD MOTOR COMPANY</u> &emsp; Position located in Louisville, 
                 Kentucky &emsp; &emsp;2000 - 2006<br>
                 Title: Senior Chassis Design Engineer<br>
+
+<!-- Installing mini-pics to accentuate the job description.--> 
+
                 <img src="2010-Ford-F-Series_Super_Duty-Image-01.jpg" width="125" height="100" alt="Super Duty Truck">
-                <p class="description">Ford Super Duty Truck</p> <br><br>
+                <span class="description">Ford Super Duty Truck</span> <br><br>
+
+<!-- Installing the button that hides/shows the job description-->
 
                 <input type="button" value="Click to view Senior Chassis Design Engineer job description" id="submit7" onclick="myFunction7()">
                 <p id="freelancetext7">
@@ -189,8 +261,11 @@
                 Earned patents 6,105,901 & 6,318,668 for my invention of 
                 a thrust vectoring mechanism design for the control of aircraft during 
                 vertical takeoff and landing.<br>
+
+<!-- Installing mini-pic of my patent disclosure to accentuate the patent description.--> 
+
                 <img src="US06318668-20011120-D00000.png" width="150" height="100" alt="Patent Image">
-                <p class="description">Image from my patent disclosure</p> <br><br>
+                <span class="description">Image from my patent disclosure</span> <br><br>
         </p>
 
         <h4>

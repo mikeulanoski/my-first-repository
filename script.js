@@ -1,8 +1,10 @@
 
-var btn1 = document.getElementById ('submit1')
-var txt1 = document.getElementById ("freelancetext1")
-    btn1.addEventListener('click', updateBtn1);
-        function updateBtn1()
+// Javascript info for button 1
+
+var btn1 = document.getElementById ('submit1') // Get the element with the ID of submit1 (button)
+var txt1 = document.getElementById ("freelancetext1") //Get the element with the ID of freelancetext1 (button text)
+    btn1.addEventListener('click', updateBtn1); //update the value of the button when it is clicked.
+        function updateBtn1() //update the button value.
             {if (btn1.value === 'Click to view Freelance Engineer description.') 
                 {btn1.value = 'Click to close Freelance Engineer description.';
                 txt1.textContent = 'Seeking new opportunities in both contract & direct roles.';} 
@@ -11,9 +13,11 @@ var txt1 = document.getElementById ("freelancetext1")
                 txt1.textContent = '';}
         }
 
+// Javascript info for button 2
+
 var btn2 = document.getElementById('submit2')
 var txt2 = document.getElementById("freelancetext2")
-    btn2.addEventListener('click', updateBtn2);
+    btn2.addEventListener('click', updateBtn2); //Added an event listener that fires when a user clicks a button.
         function updateBtn2() 
             {if (btn2.value === 'Click to view Engineer IV job description') 
                 {btn2.value = 'Click to close Engineer IV job description';
@@ -36,7 +40,9 @@ var txt2 = document.getElementById("freelancetext2")
             else 
                 {btn2.value = 'Click to view Engineer IV job description';
                 txt2.textContent = '';}
-        }
+            }
+
+    // Javascript info for button 3
 
 var btn3 = document.getElementById ('submit3')
 var txt3 = document.getElementById ("freelancetext3")
@@ -57,6 +63,9 @@ var txt3 = document.getElementById ("freelancetext3")
                 {btn3.value = 'Click to view Quality Process Improvement Engineer job description';
                 txt3.textContent = '';}
             }
+
+    // Javascript info for button 4
+
 var btn4 = document.getElementById ('submit4')
 var txt4 = document.getElementById ("freelancetext4")
     btn4.addEventListener('click', updateBtn4);
@@ -73,6 +82,7 @@ var txt4 = document.getElementById ("freelancetext4")
                 txt4.textContent = '';}
             }
 
+ // Javascript info for button 5
 
 var btn5 = document.getElementById ('submit5')
 var txt5 = document.getElementById ("freelancetext5")
@@ -96,6 +106,9 @@ var txt5 = document.getElementById ("freelancetext5")
                 {btn5.value = 'Click to view Project Engineer job description';
                 txt5.textContent = '';}
             }   
+
+// Javascript info for button 6
+
 var btn6 = document.getElementById ('submit6')
 var txt6 = document.getElementById ("freelancetext6")
     btn6.addEventListener('click', updateBtn6);
@@ -109,6 +122,8 @@ var txt6 = document.getElementById ("freelancetext6")
                 {btn6.value = 'Click to view Engineer job description';
                 txt6.textContent = '';}
             }
+
+    // Javascript info for button 7
 
 var btn7 = document.getElementById ('submit7')
 var txt7 = document.getElementById ("freelancetext7")
@@ -146,6 +161,8 @@ var txt7 = document.getElementById ("freelancetext7")
                 {btn7.value = 'Click to view Senior Chassis Design Engineer job description';
                 txt7.textContent = " ";}
             }
+
+// Javascript info for button 8
 
 var btn8 = document.getElementById ('submit8')
 var txt8 = document.getElementById ("freelancetext8")
